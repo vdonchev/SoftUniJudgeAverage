@@ -1,4 +1,5 @@
 (function () {
+	//Get names of exercises
     let numberOfProblems = $('table tr:eq(1) td').size() - 4;
     let numberOfStudents = $('table tr').size() - 1;
 
